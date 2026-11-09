@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+__marimo__/
+.complete/
+
+# Virtual environments
+.venv
+
+# Data folder (because it downloads from KaggleHub and is too large to store in Git)
+data/
